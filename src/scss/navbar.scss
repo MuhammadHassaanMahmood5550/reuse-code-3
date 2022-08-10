@@ -1,0 +1,35 @@
+#Main_navbar {
+    h1{
+        color: orange;
+    }
+}
+
+// #sidebarCollapse:active{
+//     #sidebar{
+//         margin-left: -17rem;
+//     }
+
+//     #content {
+//         width: 100%;
+//         margin: 0;
+//     }
+
+// }
+
+.sidebardo{
+    margin-left: -17rem;
+}
+
+.contentdo{
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    background: #599fd9;
+    background: -webkit-linear-gradient(to right, #599fd9, #c2e59c);
+    background: linear-gradient(to right, #599fd9, #c2e59c);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+

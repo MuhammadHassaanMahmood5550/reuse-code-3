@@ -24,6 +24,11 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+     <!-- FONTAWESOME -->
+     <script
+     src="https://kit.fontawesome.com/942b456c95.js"
+     crossorigin="anonymous"
+   ></script>
     <title>React App</title>
   </head>
   <body>
@@ -39,5 +44,14 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+     <!-- JQUERY CDN -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      // Sidebar toggle behavior
+  $('#sidebarCollapse').on('click', function() {
+    $('#sidebar, #content').toggleClass('active');
+  });
+
+    </script>
   </body>
 </html>
